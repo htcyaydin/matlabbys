@@ -27,3 +27,10 @@ ylabel("Pressure (mbar)")
 
 xlim([15 60])
 grid('minor')
+
+%Hurricane Exercise part 3
+
+dat = datastore('hurricaneData/Location/hurricaneData1990.txt')
+
+
+
