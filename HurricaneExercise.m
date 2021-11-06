@@ -7,3 +7,6 @@
   scatter(data.Windspeed(~onland),data.Pressure(~onland),"ob","filled","MarkerFaceAlpha",0.5
   hold on
   scatter(data.Windspeed(onland),data.Pressure(onland),"or","filled","MarkerFaceAlpha",0.5)
+  xlabel("Wind Speed (mph)")
+  ylabel("Pressure (mbar)")
+  hold off
