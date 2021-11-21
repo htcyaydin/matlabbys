@@ -19,4 +19,7 @@ prob.Constraints.MyConstraint5 = i1 + i2 + i3 + i4 ~=0;
 
 prob.Objective = ((i1-i2).*(i1 - i2)).*2;
 
-sol = solve(
+sol = solve(prob)
+
+%Todo: Matlab uses linear optimization algorith default. So We need to converge GA in this script then the problem will be solved..
+
