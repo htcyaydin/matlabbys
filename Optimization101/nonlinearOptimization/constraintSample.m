@@ -10,8 +10,6 @@ close all;
 
 [x, fval] = fmincon(@Volume, [1 1 1], [], [], [], [], [0 0 0],[], @mycons);
 
-[anan, bacin] = ga(@Volume, [1 1 1], [], [], [], [], [0 0 0],[], @mycons);
-
 
 
 function V = Volume(x)
