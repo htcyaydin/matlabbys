@@ -1,0 +1,3 @@
+gaAlgo(3,[-10 0 0],[10 5 5],20)
+
+bu fonksiyonu command windowa yaz
