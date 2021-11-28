@@ -1,0 +1,9 @@
+function output = hatice(Input)
+
+x1 = Input(1) %R1
+x2 = Input(2) %R2
+x3 = Input(3) %V1
+x4 = Input(4) %V2
+
+hedef = (((7/(x1+x2+4)) - (((4+x3)+(14/(x1+x2+4)))*(1/9)))^2)*2; 
+output = [hedef];   
